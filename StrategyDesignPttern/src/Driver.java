@@ -10,11 +10,13 @@ public class Driver {
         strategy.execute();
     }
 
+
+    //TODO: Add more conditions
     public static void main(String[] args) {
         run("BANK_TRANSFER");
         run("DEPOSIT");
         run("RECHARGE");
         run("BILL_PAYMENT");
-        run("ANYTHING");
+//        run("ANYTHING");
     }
 }
